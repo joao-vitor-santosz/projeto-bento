@@ -1,0 +1,190 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: hsl(0, 0%, 100%)
+}
+
+.main .container {
+    width: 100%;
+    height: 100%;
+    padding: 70px 100px;
+    display: grid;
+    grid-template-areas: "creat-post-ia social-media social-media schedule-social-media"
+                         "creat-post-ia multiple-platforms posting-consistent schedule-social-media"
+                         "creat-post-ia audience followers followers";
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    
+}
+
+.container .creat-post-ia {
+    grid-area: creat-post-ia;
+    font-weight: 500;
+}
+
+.container .creat-post-ia .creat-post {
+    padding: 70px 40px;
+    font-size: 4rem;
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.container .creat-post-ia .creat-post img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container .creat-post-ia .creat-post span {
+    color: hsl(256, 67%, 59%);
+}
+
+.container .using-ia {
+    background-color: hsl(39, 100%, 71%);
+    padding: 20px;
+    font-size: 4.3rem;
+    border-radius: 10px;
+}
+
+.container .creat-post-ia .using-ia img {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.container .social-media {
+    grid-area: social-media;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(256, 67%, 59%);
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+.container .social-media .title {
+    font-size: 7rem;
+    font-weight: 500;
+    line-height: 65px;
+}
+
+.container .social-media span {
+    color: hsl(39, 100%, 71%);
+}
+
+.container .social-media img {
+    width: 50%;
+    margin: 30px auto 10px;
+}
+
+.container .social-media .informacoes {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.multiple-platforms {
+    grid-area: multiple-platforms;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 35px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ececec;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.container .multiple-platforms img {
+    width: 365px;
+    margin-bottom: 20px;
+}
+
+.container .audience {
+    grid-area: audience;
+    padding: 10px 30px;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+}
+
+.container .audience .percentage {
+    font-size: 7rem;
+    font-weight: 500;
+}
+
+.container .audience .slogan {
+    font-size: 1.9rem;
+}
+
+.container .audience img {
+    width: 90%;
+    margin-top: 30px;
+}
+
+.container .posting-consistent {
+    grid-area: posting-consistent;
+    background-color: hsl(39, 100%, 71%);
+    padding: 30px 20px 0;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 35px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.container .posting-consistent img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.container .followers {
+    grid-area: followers;
+    background-color: hsl(256, 67%, 59%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 32px;
+}
+
+.container .followers img {
+    width: 45%;
+}
+
+.container .schedule-social-media {
+    grid-area: schedule-social-media;
+    background-color: hsl(254, 88%, 90%);
+    padding: 40px 30px;
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.container .schedule-social-media .title-schedule {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.container .schedule-social-media img {
+    width: 425px;
+    margin-top: 20px;
+}
+
+.container .schedule-social-media .slogan-schedule {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 23px;
+}
